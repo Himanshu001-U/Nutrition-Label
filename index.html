@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutrition Label</title>
+    <style>
+        body{
+            font-family: 'Open Sans' , sans-serif;
+        }
+        .label{
+            border: 2px solid black;
+            width: 300px;
+            margin: 20px auto;
+            padding: 7px;
+        }
+        .bold{
+            font-weight: 800;
+        }
+        header h1{
+            text-align: center;
+            margin: 4px;
+            letter-spacing: 0.15px;
+        }
+        .divider{
+            border-bottom: 1px solid #888989;
+            margin: 2px 0;
+        }
+        .h1{
+            padding-left: 50px;
+        }
+        .large{
+            border: 7px solid black;
+        }
+        .calories-info{
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+        }
+        .calories-info h2{
+            margin: 0;
+        }
+        .small{
+            font-size: 0.85rem;
+            padding-bottom: 5px;
+        }
+        .left p{
+            margin: -5px -2px;
+            font-size: 2.5em;
+            font-weight: 700;
+        }
+        p{
+            margin: 0;
+            display: flex;
+            justify-content: space-between;
+        }
+        .calories-info span{
+            margin: -7px -2px;
+            font-size: 2.9em;
+            font-weight: 700;
+        }
+        .medium{
+            border: 2px solid black;
+
+        }
+        .right{
+            display: flex;
+            justify-content: flex-end;
+        }
+        .dott{
+            border-bottom: 1px dotted black;
+        }
+        .indent{
+            margin-left: 1em;
+        }
+        .double-indent{
+            margin-left: 2em;
+        }
+        .h2{
+            border-bottom: 6px solid black;
+        }
+        .note{
+            font-size: 0.6rem;
+            margin: 5px 0;
+            padding: 0 8px;
+            text-indent: -8px;
+}
+        }
+
+    </style>
+</head>
+<body>
+    <div class="label">
+        <header>
+            <h1 class="bold">Nutrition Facts</h1>
+            <div class="divider"></div>
+            <p>8 servings per container</p>
+            <p class="bold">
+                Serving size
+                <span class="h1">2/3 cup (55g)</span>
+            </p>
+        </header>
+        <div class="large"></div>
+        <div class="calories-info">
+            <div class="left">
+                <h2 class="bold small">Amount per serving</h2>
+                <p>Calories</p>
+            </div>
+            <span>230</span>
+        </div>
+        <div class="medium"></div>
+        <div class="small-text">
+            <p class="bold right">% Daily Value *</p>
+            <div class="divider"></div>
+            <p>
+                <span>
+                    <span class="bold">Total Fat</span>
+                    8g
+                </span>
+                <span class="bold">10%</span>
+            </p>
+            <div class="dott"></div>
+            <p class="indent">
+                Saturated Fat 1g
+                <span class="bold">5%</span>
+            </p>
+            <div class="divider"></div>
+            <p class="indent">
+                <span>
+                    <i>Trans</i>
+                    Fat 0g
+                </span>
+            </p>
+            <div class="divider"></div>
+            <p>
+                <span>
+                    <span class="bold">Cholesterol</span>
+                    0mg
+                </span>
+                <span class="bold">0%</span>
+            </p>
+            <div class="divider"></div>
+            <p>
+                <span>
+                    <span class="bold">Sodium</span>
+                    160mg
+                </span>
+                <span class="bold">7%</span>
+            </p>
+            <div class="divider"></div>
+            <p>
+                <span>
+                    <span class="bold">Total Carbohydrate</span>
+                    37g
+                </span>
+                <span class="bold">13%</span>
+            </p>
+            <div class="divider"></div>
+            <p class="indent">Dietary Fibre 4g</p>
+            <div class="divider"></div>
+            <p class="indent">Total Sugar 12g</p>
+            <div class="divider double-indent"></div>
+            <p class="double-indent">
+                Includes 10g Added Sugars
+                <span class="bold">20%</span>
+            </p>
+            <div class="divider"></div>
+            <p class="indent">
+                <span class="bold">Protein</span>
+                3g
+            </p>
+            <div class="large"></div>
+            <p>
+                Vitamin D 2mcg
+                <span>10%</span>
+            </p>
+            <div class="divider"></div>
+            <p>
+                Calcium 260mg
+                <span>20%</span>
+            </p>
+            <div class="divider"></div>
+            <p>
+                Iron 8mg
+                <span>45%</span>
+            </p>
+            <div class="divider"></div>
+            <p>
+                Potassium 235mg
+                <span>6%</span>
+            </p>
+        </div>
+        <div class="h2"></div>
+        <p class="note">* The % Daily Value (DV) tells you how much a nutrient in a serving of food contributes to a daily
+            diet. 2,000 calories a day is used for general nutrition advice.</p>
+    </div>
+    
+</body>
+</html>
